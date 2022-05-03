@@ -121,15 +121,8 @@ function handleGameover(asteroidsGroup){
     if (life === 0) {
       gameState=2
       
-      swal({
-        title: `Game Over`,
-        text: "Oops you lost the game....!!!",
-        text: "Your Score is " + score,
-        imageUrl:
-          "https://cdn.shopify.com/s/files/1/1061/1924/products/Thumbs_Down_Sign_Emoji_Icon_ios10_grande.png",
-        imageSize: "100x100",
-        confirmButtonText: "Thanks For Playing"
-      });
+    text("GAME OVER",0,0,50,50);
+      
     }
   
 }
